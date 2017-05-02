@@ -1,9 +1,10 @@
 package hypno
 
 type InputModule interface {
+	// CreateStream() string
 	InputInfo() string
-	StartInput()
-	StopInput()
+	// StartInput()
+	// StopInput()
 }
 
 type InputObject struct {
